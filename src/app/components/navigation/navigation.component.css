@@ -1,0 +1,32 @@
+.example-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    z-index: 1000;
+}
+
+.example-container {
+    position: relative; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    padding-top: 76px; 
+}
+
+.example-sidenav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 20%;
+    background: #fff;
+    padding: 10px;
+}
+
+.mat-sidenav-content {
+    padding-bottom: 0px;
+}

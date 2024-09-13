@@ -1,0 +1,99 @@
+.card {
+    background: none;
+    border: 0px !important;
+    border-radius: 0px !important;
+
+    .card-container {
+        padding-top: 60px;
+        padding-left: 76px;
+    }
+
+    .card-title h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: 0.015em;
+        text-align: left;
+        color: #ffffff;
+        width: 360px;
+        height: 128px;
+        word-break: keep-all !important;
+        overflow-wrap: initial;
+    }
+
+    .card-text {
+        margin-top: 70px;
+
+        p {
+            margin: 0px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 25.2px;
+            text-align: left;
+            color: #ffffff;
+            width: 646px;
+            height: 75px;
+            word-break: keep-all !important;
+            overflow-wrap: initial;
+        }
+    }
+
+    .card-img-footer {
+        margin-top: 53px;
+
+        div {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 25.2px;
+            text-align: left;
+            color: #ffffff;
+            margin-left: 37px;
+            margin-bottom: -10px;
+        }
+    }
+}
+
+
+
+
+
+
+::ng-deep .p-galleria .p-galleria-caption {
+    height: 100% !important;
+}
+
+
+::ng-deep .p-galleria-indicators {
+    background: none;
+
+
+}
+
+::ng-deep .p-galleria-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #007bff;
+    margin: 0 5px;
+    border: none;
+    padding: 0;
+}
+
+::ng-deep .p-galleria-indicator.p-highlight {
+    background-color: #ff5722;
+    border: none;
+}
+
+::ng-deep .p-link {
+    display: none;
+}

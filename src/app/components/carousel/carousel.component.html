@@ -1,0 +1,23 @@
+<div id="{{ idAncla }}" class="carousel-container">
+  <div class="w-100 cards-title">{{ title }}</div>
+  <div class="w-100">
+    <p-carousel
+      [value]="data"
+      [numVisible]="4"
+      [numScroll]="1"
+      [circular]="true"
+      [responsiveOptions]="responsiveOptions"
+      [showIndicators]="false"
+      [showNavigators]="false"
+      autoplayInterval="3000"
+    >
+      <ng-template let-movie pTemplate="item">
+        <app-cards
+          [title]="movie.original_title"
+          [imageSource]="movie.backdrop_path"
+          [description]="movie.overview"
+        ></app-cards>
+      </ng-template>
+    </p-carousel>
+  </div>
+</div>

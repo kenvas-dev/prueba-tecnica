@@ -1,0 +1,7 @@
+footer {
+    width: 100% !important;
+    height: 178px;
+    margin-top: 136px;
+    background-color: #CCCCCC;
+    z-index: 1000;
+}

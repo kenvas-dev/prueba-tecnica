@@ -1,0 +1,88 @@
+@import "node_modules/primeng/resources/themes/lara-dark-blue/theme.css";
+
+// Variables para el modo oscuro
+$dark-background: #333;
+$dark-text: #f0f0f0;
+$dark-border: #555;
+$dark-primary: #1e88e5; // Puedes cambiar este color a tu color primario oscuro
+
+// Estilos globales para el modo oscuro
+body {
+  background-color: $dark-background;
+  color: $dark-text;
+}
+
+// Ajustar el contenedor principal de PrimeNG
+.ui-widget {
+  background-color: $dark-background;
+  color: $dark-text;
+  border-color: $dark-border;
+}
+
+// Estilos específicos para componentes
+.ui-button {
+  background-color: $dark-primary;
+  border-color: $dark-primary;
+  color: $dark-text;
+
+  &:hover {
+    background-color: darken($dark-primary, 10%);
+    border-color: darken($dark-primary, 10%);
+  }
+}
+
+.ui-card {
+  background-color: darken($dark-background, 5%);
+  color: $dark-text;
+  border: 1px solid $dark-border;
+}
+
+.ui-inputtext,
+.ui-inputgroup,
+.ui-dropdown {
+  background-color: darken($dark-background, 10%);
+  color: $dark-text;
+  border: 1px solid $dark-border;
+}
+
+// Ajustar otros componentes según sea necesario
+.ui-datatable {
+  background-color: darken($dark-background, 5%);
+  color: $dark-text;
+  border-color: $dark-border;
+
+  .ui-datatable-header {
+    background-color: darken($dark-background, 10%);
+  }
+
+  .ui-datatable-body {
+    tr:nth-child(even) {
+      background-color: darken($dark-background, 10%);
+    }
+
+    tr:nth-child(odd) {
+      background-color: $dark-background;
+    }
+  }
+}
+
+// Ajustes para la tabla
+.ui-table {
+  background-color: darken($dark-background, 5%);
+  color: $dark-text;
+
+  .ui-table-header {
+    background-color: darken($dark-background, 10%);
+    color: $dark-text;
+  }
+
+  .ui-table-body {
+    tr:nth-child(even) {
+      background-color: darken($dark-background, 10%);
+    }
+
+    tr:nth-child(odd) {
+      background-color: $dark-background;
+    }
+  }
+}

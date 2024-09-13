@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(2, 0, 36);
+    background-image: url('../../../../assets/images/login.png');
+    background-repeat: round;
+    background-size: cover;
+
+}
+
+.container {
+
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 65%;
+    max-width: 70%;
+    min-height: 579px;
+    -webkit-backdrop-filter: blur(8px);
+
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 20px;
+    
+}
+
+.form-group {
+
+    padding: 15px 0 24px 0;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
+    label {
+
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        text-align: left;
+    }
+
+    input {
+
+
+        width: 265px;
+        height: 40px;
+        border-radius: 3px;
+        opacity: 0px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.1);
+        ;
+        -webkit-backdrop-filter: blur(4px);
+
+        backdrop-filter: blur(4px);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.08)
+    }
+
+    .button-submit {
+        background: #0A0A0A;
+        color: #FFFFFF;
+        border: none;
+        width: 265px;
+        height: 40px;
+        padding: 0px 24px 0px 24px;
+        border-radius: 3px;
+    }
+
+    .social-network {
+        color: #FFFFFF;
+        border: none;
+        width: 265px;
+        height: 40px;
+        padding: 0;
+        margin-bottom: 19px;
+        border-radius: 3px;
+        background-color: rgba(255, 255, 255, 0.1);
+        ;
+        -webkit-backdrop-filter: blur(4px);
+
+        backdrop-filter: blur(4px);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.08)
+    }
+
+    .strike-text {
+        width: 265px;
+
+        h2 {
+            display: flex;
+            align-items: center;
+            font-size: 14px !important;
+        }
+
+        h2:after, h2:before {
+            content: '';
+            width: 110px;
+            height: 1px;
+            background: #D4D4D4;
+            margin: 0 10px;
+        }
+    }
+
+    .new-account {
+        width: 265px;
+        font-size: 16px;
+
+        .text-secondary {
+            letter-spacing: 0.1em
+        }
+    }
+}
