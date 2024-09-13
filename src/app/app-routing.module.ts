@@ -7,11 +7,11 @@ import { AppComponent } from './app.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'pages',
+    redirectTo: 'login',
     pathMatch: 'full',
   },
   {
-    path: 'auth',
+    path: 'login',
     loadChildren: () =>
       import('./components/auth/login.module').then((m) => m.LoginModule),
     component: AppComponent,

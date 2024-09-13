@@ -51,55 +51,6 @@ body.theme-dark {
   li {
     color: $dark-primary;
   }
-
-  ::ng-deep .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
-    background-color: $dark-primary !important;
-  }
-
-  .ui-button {
-    background-color: $dark-primary !important;
-    border-color: $dark-primary !important;
-    color: $dark-text !important;
-
-    &:hover {
-      background-color: darken($dark-primary, 10%) !important;
-      border-color: darken($dark-primary, 10%) !important;
-    }
-  }
-
-  .ui-card {
-    background-color: darken($dark-background, 5%) !important;
-    color: $dark-text !important;
-    border: 1px solid $dark-border !important;
-  }
-
-  .ui-inputtext,
-  .ui-inputgroup,
-  .ui-dropdown {
-    background-color: darken($dark-background, 10%) !important;
-    color: $dark-text !important;
-    border: 1px solid $dark-border !important;
-  }
-
-  .ui-datatable {
-    background-color: darken($dark-background, 5%) !important;
-    color: $dark-text !important;
-    border-color: $dark-border !important;
-
-    .ui-datatable-header {
-      background-color: darken($dark-background, 10%) !important;
-    }
-
-    .ui-datatable-body {
-      tr:nth-child(even) {
-        background-color: darken($dark-background, 10%) !important;
-      }
-
-      tr:nth-child(odd) {
-        background-color: $dark-background !important;
-      }
-    }
-  }
 }
 
 body.theme-light {
@@ -113,53 +64,5 @@ body.theme-light {
   a,
   .menu {
     color: $light-text !important;
-  }
-
-  ::ng-deep .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
-    background-color: $light-primary !important;
-  }
-  .ui-button {
-    background-color: $light-primary !important;
-    border-color: $light-primary !important;
-    color: $light-text !important;
-
-    &:hover {
-      background-color: darken($light-primary, 10%) !important;
-      border-color: darken($light-primary, 10%) !important;
-    }
-  }
-
-  .ui-card {
-    background-color: lighten($light-background, 5%) !important;
-    color: $light-text !important;
-    border: 1px solid $light-border !important;
-  }
-
-  .ui-inputtext,
-  .ui-inputgroup,
-  .ui-dropdown {
-    background-color: lighten($light-background, 10%) !important;
-    color: $light-text !important;
-    border: 1px solid $light-border !important;
-  }
-
-  .ui-datatable {
-    background-color: lighten($light-background, 5%) !important;
-    color: $light-text !important;
-    border-color: $light-border !important;
-
-    .ui-datatable-header {
-      background-color: lighten($light-background, 10%) !important;
-    }
-
-    .ui-datatable-body {
-      tr:nth-child(even) {
-        background-color: lighten($light-background, 10%) !important;
-      }
-
-      tr:nth-child(odd) {
-        background-color: $light-background !important;
-      }
-    }
   }
 }
